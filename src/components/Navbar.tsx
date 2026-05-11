@@ -21,7 +21,7 @@ export function Navbar({ locale }: { locale: Locale }) {
       <nav className="glass mx-auto flex h-20 w-full max-w-7xl items-center justify-between rounded-[8px] px-4 md:px-6">
         <Link href={localizedPath(locale)} className="flex items-center gap-3" aria-label="Abnaa Alhadarat home">
           <span className="relative grid h-12 w-12 place-items-center rounded-[8px] bg-white shadow-glow">
-            <Image src="/abnaa-alhadarat-logo.jpeg" alt="Abnaa Alhadarat logo" width={42} height={42} className="h-10 w-10 object-contain" priority />
+            <Image src="/abnaa-alhadarat-logo.svg" alt="Abnaa Alhadarat logo" width={42} height={42} className="h-10 w-10 object-contain" priority />
           </span>
           <span className="leading-tight">
             <span className="block text-sm font-semibold tracking-wide text-navybrand">{copy.company}</span>
