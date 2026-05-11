@@ -84,7 +84,7 @@ export function CeoMessage({ locale }: { locale: Locale }) {
       <div className="section-shell">
         <Reveal className="grid overflow-hidden rounded-[8px] border border-cyanbrand/20 bg-white shadow-glass lg:grid-cols-[0.8fr_1.2fr]">
           <div className="relative min-h-[320px] bg-gradient-to-br from-ice via-white to-cyanbrand/20 p-8">
-            <Image src="/abnaa-alhadarat-logo.jpeg" alt="Abnaa Alhadarat logo" width={220} height={220} className="mx-auto mt-8 h-48 w-48 object-contain drop-shadow-2xl" />
+            <Image src="/abnaa-alhadarat-logo.svg" alt="Abnaa Alhadarat logo" width={220} height={220} className="mx-auto mt-8 h-48 w-48 object-contain drop-shadow-2xl" />
             <div className="absolute bottom-8 left-8 right-8 rounded-[8px] bg-white/82 p-4 text-center shadow-glow backdrop-blur">
               <p className="font-semibold text-navybrand">{copy.ceoName}</p>
               <p className="text-sm text-cyanbrand">{copy.ceoTitle}</p>
