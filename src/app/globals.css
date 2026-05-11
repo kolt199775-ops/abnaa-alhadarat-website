@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --navy: #061b3f;
+  --blue: #063c8f;
+  --cyan: #25bdf2;
+  --aqua: #18d8d2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 14% 0%, rgba(37, 189, 242, 0.18), transparent 34rem),
+    radial-gradient(circle at 86% 12%, rgba(24, 216, 210, 0.18), transparent 30rem),
+    linear-gradient(180deg, #f8fdff 0%, #ffffff 38%, #eefbff 100%);
+  color: var(--navy);
+  font-family: Sora, Inter, "Segoe UI", Arial, sans-serif;
+}
+
+[dir="rtl"] {
+  font-family: Cairo, Tajawal, Tahoma, Arial, sans-serif;
+}
+
+::selection {
+  background: rgba(24, 216, 210, 0.28);
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(238, 252, 255, 0.48));
+  box-shadow: 0 24px 80px rgba(8, 66, 132, 0.16);
+  backdrop-filter: blur(22px);
+}
+
+.glass-dark {
+  border: 1px solid rgba(155, 235, 255, 0.3);
+  background: linear-gradient(135deg, rgba(6, 27, 63, 0.88), rgba(6, 60, 143, 0.78));
+  box-shadow: 0 30px 90px rgba(6, 27, 63, 0.34);
+  backdrop-filter: blur(24px);
+}
+
+.metallic-text {
+  background: linear-gradient(110deg, #061b3f, #087dcc 36%, #18d8d2 72%, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.blueprint-grid {
+  background-image:
+    linear-gradient(rgba(37, 189, 242, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 189, 242, 0.12) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, transparent, black 12%, black 72%, transparent);
+}
+
+.section-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.field {
+  width: 100%;
+  border: 1px solid rgba(6, 60, 143, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 0.95rem 1rem;
+  color: #061b3f;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.field:focus {
+  border-color: rgba(24, 216, 210, 0.8);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 4px rgba(24, 216, 210, 0.16);
+}
+
+.sector-icon {
+  transform-style: preserve-3d;
+  transform: rotateX(10deg) rotateY(-16deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
