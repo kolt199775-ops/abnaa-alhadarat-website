@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Abnaa Alhadarat is a bilingual Iraqi company website for industrial cities, logistics, hospitality, IT solutions, trading, contracting, and infrastructure.",
   icons: {
-    icon: "/abnaa-alhadarat-logo.jpeg"
+    icon: "/abnaa-alhadarat-logo.svg"
   }
 };
 
