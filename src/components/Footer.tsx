@@ -13,7 +13,7 @@ export function Footer({ locale }: { locale: Locale }) {
       <div className="section-shell grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <Image src="/abnaa-alhadarat-logo.jpeg" alt="Abnaa Alhadarat logo" width={54} height={54} className="h-14 w-14 object-contain" />
+            <Image src="/abnaa-alhadarat-logo.svg" alt="Abnaa Alhadarat logo" width={54} height={54} className="h-14 w-14 object-contain" />
             <div>
               <p className="font-semibold text-navybrand">{copy.company}</p>
               <p className="font-arabic text-sm font-semibold text-deepbrand">{copy.companyAr}</p>
