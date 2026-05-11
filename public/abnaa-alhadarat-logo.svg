@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Abnaa Alhadarat logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#063c8f"/>
+      <stop offset="0.45" stop-color="#25bdf2"/>
+      <stop offset="1" stop-color="#18d8d2"/>
+    </linearGradient>
+    <linearGradient id="m" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="white"/>
+  <g fill="url(#g)">
+    <path d="M224 120 288 84v252l-64-34z" opacity="0.95"/>
+    <path d="M168 166 212 142v168l-44-24z" opacity="0.9"/>
+    <path d="M118 214 154 194v84l-36-20z" opacity="0.9"/>
+    <path d="M306 120h16v214h-16zM340 154h15v180h-15zM374 194h15v140h-15zM408 238h14v96h-14z" opacity="0.86"/>
+    <path d="M54 302c72 24 137 38 196 86-73 1-139-24-196-86z" opacity="0.82"/>
+    <path d="M458 302c-72 24-137 38-196 86 73 1 139-24 196-86z" opacity="0.82"/>
+    <path d="M108 365c52 13 96 16 135 52-55 6-101-8-135-52z" opacity="0.7"/>
+    <path d="M404 365c-52 13-96 16-135 52 55 6 101-8 135-52z" opacity="0.7"/>
+    <path d="M256 386c18 28 25 49 17 72h-34c-7-23 0-44 17-72z"/>
+  </g>
+  <path d="M236 128h36v170h-36zM180 174h22v106h-22z" fill="url(#m)"/>
+</svg>
